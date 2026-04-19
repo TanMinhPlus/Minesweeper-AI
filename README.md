@@ -147,7 +147,11 @@ python game/runner_probabilistic.py
 
 ## 📸 Demo
 
-(Add demo.gif here)
+-CSP
+<img width="800" height="469" alt="CSP" src="https://github.com/user-attachments/assets/3d9038c4-9669-4419-b0a4-8e81f8da6fd1" />
+
+-Probability model
+<img width="800" height="469" alt="PM" src="https://github.com/user-attachments/assets/4db4495e-057e-4706-a21f-fc317719f35d" />
 
 ---
 
