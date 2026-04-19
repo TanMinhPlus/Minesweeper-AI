@@ -153,7 +153,7 @@ python game/runner_probabilistic.py
 
 ## 👨‍💻 Author
 
-* Your Name
+Pham Tan Minh
 
 ---
 
