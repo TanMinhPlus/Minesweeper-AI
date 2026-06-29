@@ -1,7 +1,7 @@
 # Minesweeper-AI
-# 💣 Minesweeper AI: CSP vs Probabilistic Reasoning
+# Minesweeper AI: CSP vs Probabilistic Reasoning
 
-## 📌 Overview
+## Overview
 
 This project implements an intelligent agent to solve the Minesweeper game using **two independent AI approaches**:
 
@@ -10,9 +10,7 @@ This project implements an intelligent agent to solve the Minesweeper game using
 
 The goal is not only to solve the game, but to **compare deterministic vs uncertainty-based decision making in AI systems**.
 
----
-
-## 🧠 AI Approaches
+## AI Approaches
 
 ### 1. CSP-based Agent
 
@@ -20,15 +18,13 @@ The goal is not only to solve the game, but to **compare deterministic vs uncert
 * Logical inference using constraints (sentences)
 * Identifies safe cells and mines with certainty
 
-✔ Strength:
+Strength:
 
 * Guaranteed correctness when inference is possible
 
-❌ Limitation:
+Limitation:
 
 * Fails when uncertainty appears (no safe moves)
-
----
 
 ### 2. Probabilistic Agent
 
@@ -39,17 +35,15 @@ The goal is not only to solve the game, but to **compare deterministic vs uncert
   * Monte Carlo sampling (for large states)
 * Computes probability of each cell being a mine
 
-✔ Strength:
+Strength:
 
 * Can act under uncertainty
 
-❌ Limitation:
+Limitation:
 
 * Slower and not always optimal
 
----
-
-## ⚖️ Comparison
+## Comparison
 
 | Feature             | CSP                  | Probabilistic |
 | ------------------- | -------------------- | ------------- |
@@ -58,9 +52,7 @@ The goal is not only to solve the game, but to **compare deterministic vs uncert
 | Speed               | Fast                 | Slower        |
 | Accuracy            | High (when solvable) | Risk-based    |
 
----
-
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 Game Engine (Minesweeper)
@@ -74,7 +66,7 @@ Decision Making
 
 ---
 
-## 🎮 Features
+## Features
 
 * Playable Minesweeper (Pygame)
 * AI autoplay mode
@@ -84,7 +76,7 @@ Decision Making
 
 ---
 
-## ▶️ Installation & Run
+## Installation & Run
 
 ### Install dependencies
 
@@ -106,7 +98,7 @@ python game/runner_probabilistic.py
 
 ---
 
-## 📊 Example Behavior
+## Example Behavior
 
 * CSP:
 
@@ -120,7 +112,7 @@ python game/runner_probabilistic.py
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 * No learning (non-adaptive)
 * Performance drops on large boards
@@ -128,7 +120,7 @@ python game/runner_probabilistic.py
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Hybrid AI (CSP + Probability)
 * Reinforcement Learning agent
@@ -137,7 +129,7 @@ python game/runner_probabilistic.py
 
 ---
 
-## 🧠 Key Takeaways
+## Key Takeaways
 
 * Difference between symbolic AI and probabilistic AI
 * Trade-offs between certainty and risk
@@ -145,7 +137,7 @@ python game/runner_probabilistic.py
 
 ---
 
-## 📸 Demo
+## Demo
 
 -CSP
 <img width="800" height="469" alt="CSP" src="https://github.com/user-attachments/assets/3d9038c4-9669-4419-b0a4-8e81f8da6fd1" />
@@ -155,7 +147,7 @@ python game/runner_probabilistic.py
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Pham Tan Minh
 
