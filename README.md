@@ -124,11 +124,11 @@ python game/runner_probabilistic.py
 * Constraint modeling and inference techniques
 
 ## Demo
-
 - CSP
 <p align="center">
  <img src="https://github.com/user-attachments/assets/3d9038c4-9669-4419-b0a4-8e81f8da6fd1" width="800" />
 </p>
+
 - Probability model
 <p align="center">
  <img src="https://github.com/user-attachments/assets/4db4495e-057e-4706-a21f-fc317719f35d" width="800"/>
