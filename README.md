@@ -64,8 +64,6 @@ AI Agent
 Decision Making
 ```
 
----
-
 ## Features
 
 * Playable Minesweeper (Pygame)
@@ -73,8 +71,6 @@ Decision Making
 * Safe vs mine visualization
 * Performance stats (win rate, speed)
 * Two independent AI agents
-
----
 
 ## Installation & Run
 
@@ -96,8 +92,6 @@ python game/runner_csp.py
 python game/runner_probabilistic.py
 ```
 
----
-
 ## Example Behavior
 
 * CSP:
@@ -110,15 +104,11 @@ python game/runner_probabilistic.py
   * Chooses lowest-risk move
   * Continues even under uncertainty
 
----
-
 ## Limitations
 
 * No learning (non-adaptive)
 * Performance drops on large boards
 * Probabilistic agent depends on sampling
-
----
 
 ## Future Improvements
 
@@ -127,32 +117,23 @@ python game/runner_probabilistic.py
 * Performance benchmarking system
 * Visualization dashboard
 
----
-
 ## Key Takeaways
 
 * Difference between symbolic AI and probabilistic AI
 * Trade-offs between certainty and risk
 * Constraint modeling and inference techniques
 
----
-
 ## Demo
 
--CSP
-<img width="800" height="469" alt="CSP" src="https://github.com/user-attachments/assets/3d9038c4-9669-4419-b0a4-8e81f8da6fd1" />
-
--Probability model
-<img width="800" height="469" alt="PM" src="https://github.com/user-attachments/assets/4db4495e-057e-4706-a21f-fc317719f35d" />
-
----
+- CSP
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/3d9038c4-9669-4419-b0a4-8e81f8da6fd1" width="800" />
+</p>
+- Probability model
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/4db4495e-057e-4706-a21f-fc317719f35d" width="800"/>
+</p>
 
 ## Author
 
 Pham Tan Minh
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
